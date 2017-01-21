@@ -1,4 +1,4 @@
-FROM node:7.1
+FROM node:7.4
 
 RUN apt-get update && apt-get install git curl
 
