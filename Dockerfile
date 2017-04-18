@@ -11,5 +11,6 @@ EXPOSE 3000
 COPY ./server.js /opt/prerender/server.js
 
 RUN npm install
+RUN npm install prerender-clear-local-storage
 
 CMD ["npm start"]
